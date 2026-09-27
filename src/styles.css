@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.todo-card {
+    width: 100%;
+    max-width: 520px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.task-text {
+    word-break: break-word;
+}
+
+.list-group-item {
+    transition: background-color 0.2s ease;
+}
+
+.removeTask {
+    flex-shrink: 0;
+}
